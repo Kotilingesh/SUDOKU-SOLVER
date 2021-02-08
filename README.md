@@ -1,7 +1,7 @@
 # SUDOKU-SOLVER
 C Program that solves a 9x9 sudoku puzzle
 This c-project consists of 9 broad functions, which are defined for its own specific purpose. The 9 functions include-
-•	int main
+•	int main\n
 •	inputfunc
 •	printfunc
 •	checposs
