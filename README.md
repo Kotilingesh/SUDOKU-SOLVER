@@ -1,15 +1,25 @@
 # SUDOKU-SOLVER
 C Program that solves a 9x9 sudoku puzzle
 This c-project consists of 9 broad functions, which are defined for its own specific purpose. The 9 functions include-
-•	int main\n
+
+•	int main
+
 •	inputfunc
+
 •	printfunc
+
 •	checposs
+
 •	checposs_beta
+
 •	comchec
+
 •	fseg
+
 •	gridsolve
+
 •	kolinf
+
 “int main”-
           Needless to say, it is the function at which the whole program starts and ends. In this program, three functions are called in the ‘int main’. Also the problem matrix is declared here as a 2d- array with indices as ‘9’.
 
