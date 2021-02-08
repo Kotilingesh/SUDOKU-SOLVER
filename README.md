@@ -1,4 +1,4 @@
-# SUDOKU-SOLVER-A C-Program that solves a 9x9 sudoku puzzle
+# SUDOKU SOLVER-A C-Program that solves a 9x9 sudoku puzzle
 
 This project is a c program that inputs a 9x9 sudoku problem from the stdin and prints the solved one as an output.The problem needs to be inputed in such a way that the blank spaces are typed as zeroes.The program works on the principle of recursions, by doing trial and errors on the blank spaces in an orderly manner that reduces computation time.
 
