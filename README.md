@@ -1,6 +1,6 @@
 # SUDOKU SOLVER-A C-Program that solves a 9x9 sudoku puzzle
 
-This project is a c program that inputs a 9x9 sudoku problem from the stdin and prints the solved one as an output.The problem needs to be inputed in such a way that the blank spaces are typed as zeroes.The program works on the principle of recursions, by doing trial and errors on the blank spaces in an orderly manner that reduces computation time.
+This project is a c program that inputs a 9x9 sudoku problem from the stdin and prints the solved one as an output.The problem needs to be inputed in such a way that the blank spaces are to be typed in as zeroes.The program works on the principle of recursions, by doing trial and errors on the blank spaces in an orderly manner that reduces computation time.
 
 This c-project consists of 9 broad functions, which are defined for its own specific purpose. The 9 functions include-
 
@@ -21,6 +21,8 @@ This c-project consists of 9 broad functions, which are defined for its own spec
 •	gridsolve
 
 •	kolinf
+
+
 
 “int main”-
           
@@ -58,7 +60,7 @@ This c-project consists of 9 broad functions, which are defined for its own spec
           
 "kolinf"- a void function
         
-   It is the main function that actually solves the Sudoku. It is a recursive function (in other words the same function is called again in itself). 
+   It is the main function that actually solves the Sudoku. It is a recursive function. 
       It solves the problem through the method of trial-and-error. It substitutes a value at a blank space which has the least possible number of solutions (which is found with the ‘fseg’ function) and checks for possibility of existence of a solution (with the ‘checposs_beta’ and ‘checposs’ function) for the thus formed matrix. If so (if there exists a solution), it continues and repeats the same (through means of recursion) with another index position, and so on, until the completeness of the grid (which is satisfied with the ‘comchec’ function). 
 
 
